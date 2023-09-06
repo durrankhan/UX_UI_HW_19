@@ -10,7 +10,7 @@ div.logo {
 }
 
 nav {
-    width: 73%;
+    width: 100%;
     padding: 1%;
 }
 
@@ -30,9 +30,11 @@ section.heroImg {
     padding-bottom: 100px;
 }
 
+
 footer {
+    width: 100%;
     background: color #373738;
-    padding: 20px 0;
+    padding: 0px 0;
     text-align: center;
 }
 
@@ -53,6 +55,10 @@ footer li {
 footer a {
     color: white;
     text-decoration: none;
+}
+
+.navbar-footer {
+    padding: 100px;
 }
 
 
@@ -139,3 +145,12 @@ footer a {
 h1 {
     padding-left: 300px;
 }
+
+.contactInfo {
+    padding:75px;
+    padding-left: 300px;
+}
+
+
+
+
