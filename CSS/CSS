@@ -25,8 +25,9 @@ section.heroImg {
 }
 
 .content {
-    width: 500px;
+    width: 300px;
     margin: 0 auto;
+    padding-bottom: 100px;
 }
 
 footer {
@@ -58,19 +59,24 @@ footer a {
 .flexContainer {
     display: flex;
     flex-direction: rows;
+    padding-right: 250px;
+    padding-left: 250px;
 }
 
 .flexChild {
     width: 33%;
-    padding: 20px;
+    padding: 75px;
     box-sizing: border-box;
 }
 
 .workGrid {
     display: grid;
+    padding: 75px;
+    padding-left: 300px;
+    padding-right: 300px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto auto;
-    gap: 20px;
+    gap: 50px;
     grid-template-areas:
         "item1 item2"
         "item3 item4"
@@ -81,6 +87,7 @@ footer a {
     padding: 20px;
     box-sizing: border-box;
     border: 1px solid #ccc;
+
 }
 
 .item1 {
@@ -127,4 +134,8 @@ footer a {
         grid-template-rows: auto auto auto auto auto auto;
         grid-template-columns: 1fr;
     }
+}
+
+h1 {
+    padding-left: 300px;
 }
