@@ -48,6 +48,8 @@ section.heroImg {
     box-sizing: border-box;
 }
 
+
+
 .workGrid {
     display: grid;
     padding: 75px;
@@ -67,6 +69,21 @@ section.heroImg {
     box-sizing: border-box;
     border: 1px solid #ccc;
 
+}
+
+.placesHome {
+    max-width: 50%;
+    height: fixed;
+}
+
+.adeiuitHome {
+    max-width: 50%;
+    height: fixed;
+}
+
+.baleafHome {
+    max-width: 100%;
+    height: fixed;
 }
 
 .item1 {
