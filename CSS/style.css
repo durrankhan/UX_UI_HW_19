@@ -48,15 +48,11 @@ section.heroImg {
     box-sizing: border-box;
 }
 
-.uxIcon, .designIcon {
+.uxIcon, .designIcon, .webdevIcon {
     width: 225px;
     padding: 10%;
 }
 
-.webdevIcon {
-    width:250px;
-    padding: 10%;
-}
 
 .workGrid {
     display: grid;
